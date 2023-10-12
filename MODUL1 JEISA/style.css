@@ -1,0 +1,52 @@
+body {
+    background-image: url(background.jpg);
+    height: 700px;
+}
+
+
+header {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.gue {
+    float: right;
+}
+
+.gue img {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 200px;
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.gue img:hover {
+    transform: scale(1.1);
+}
+
+.left-container {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 300px;
+    color: white;
+}
+
+.left-container h1 {
+
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+}
+
+.navbar-nav a {
+    text-align: center;
+}
